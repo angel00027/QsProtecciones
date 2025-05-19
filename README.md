@@ -54,3 +54,16 @@ owners_none: "&cSin propietarios"
 click_instruction: "&7Haz clic para administrar esta protección"
 actividad_nunca: "&cNunca ha habido actividad"
 ultimas_actividad: "&7Última actividad: &f{actividad}"
+
+## 📚 Créditos
+
+Desarrollado por [@angel00027](https://github.com/angel00027).  
+Basado en los plugins y APIs de:
+- [WorldGuard](https://github.com/EngineHub/WorldGuard)
+- [ProtectionStones](https://github.com/espidev/ProtectionStones)
+
+---
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente con atribución adecuada.
