@@ -18,15 +18,19 @@ Este plugin proporciona una interfaz gráfica amigable para administradores y ju
 
 ## 📷 Capturas
 Menu principal 
-
+Visualiza el acceso inicial del administrador a las funcionalidades de gestión de regiones.
 ![image](https://github.com/user-attachments/assets/3ee3e8ac-04a9-44a7-a9ce-d673b96e77ef)
 Menu de protecciones
+Muestra todas las regiones registradas en el mundo, con información como propietarios, coordenadas y actividad reciente.
 
 ![image](https://github.com/user-attachments/assets/156a47db-3a38-4038-849f-0d57e6586ece)
-Menu de seleccion
 
+Menu de seleccion
+Permite elegir una opcion específica para acceder a más acciones sobre ella.
 ![image](https://github.com/user-attachments/assets/13e09f42-9063-4d67-8235-88e3eca6ce13)
+
 Menu de acciones
+Ofrece herramientas para ver información detallada de la región, teleportarse a ella y realizar otras acciones administrativas como modificar flags, ver o editar miembros, eliminar la región, entre otras funciones útiles para su gestión.
 
 ![image](https://github.com/user-attachments/assets/39e1792b-6a2a-40b7-aafa-9505b3f3eed2)
 
