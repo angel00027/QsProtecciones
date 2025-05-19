@@ -54,6 +54,9 @@ owners_none: "&cSin propietarios"
 click_instruction: "&7Haz clic para administrar esta protección"
 actividad_nunca: "&cNunca ha habido actividad"
 ultimas_actividad: "&7Última actividad: &f{actividad}"
+```
+
+---
 
 ## 📚 Créditos
 
