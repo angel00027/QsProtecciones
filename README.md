@@ -1,4 +1,4 @@
-# qsProtecciones
+# QsProtecciones
 
 Sistema avanzado de gestión de protecciones para servidores Minecraft con soporte para **ProtectionStones** y **WorldGuard**.  
 Este plugin proporciona una interfaz gráfica amigable para administradores y jugadores, facilitando el manejo, visualización y administración de regiones protegidas en el mundo.
