@@ -48,6 +48,52 @@ El archivo `mensajes.yml` permite personalizar completamente los textos visibles
 Ejemplo:
 
 ```yaml
+# ********************************************************
+# *                      QsProtecciones                  *
+# *               Mensajes del plugin en español          *
+# ********************************************************
+
+# ================================================================
+# Instrucciones sobre los formatos de mensajes
+# ================================================================
+#
+# 1. Mensajes en formato MiniMessage:
+#    - Estos mensajes utilizan etiquetas como <red>, <green>, <yellow>, etc.
+#    - SOLO pueden usarse estas etiquetas para definir colores y estilos.
+#    - Ejemplo válido:
+#        <red>No eres el propietario de esta protección.</red>
+#    - NO se debe usar el formato con el símbolo & en estos mensajes.
+#    - Por lo tanto, NO es correcto usar:
+#        &cNo eres el propietario de esta protección.
+#
+# 2. Mensajes en formato Legacy (con símbolo &):
+#    - Estos mensajes utilizan códigos de color con el símbolo & seguido de una letra o número.
+#    - Ejemplo válido:
+#        &cNo eres el propietario de esta protección.
+#    - NO se debe usar etiquetas MiniMessage (<red>...</red>) en estos mensajes.
+#    - Por lo tanto, NO es correcto usar:
+#        <red>No eres el propietario de esta protección.</red>
+#
+# Resumen:
+# - Cada mensaje debe mantenerse en su formato correspondiente.
+# - No mezclar etiquetas MiniMessage con códigos Legacy (&).
+# - Así se evita que los mensajes no se muestren correctamente en el plugin.
+#
+# =================================================================
+
+# ==========================
+# Mensajes en formato MiniMessage
+# ==========================
+
+no_tp: "<red>Esta protección no tiene punto de teletransporte.</red>"
+tp_success: "<green>Teletransportado a: <white>{region}</white></green>"
+config_open: "<yellow>Configurando protección: <green>{region}</green></yellow>"
+no_permissions: "<red>No tienes permisos para hacer esto.</red>"
+
+# ==========================
+# Mensajes en formato Legacy (& o §)
+# ==========================
+
 menu_protecciones: "§a» §bTus Protecciones"
 owners_title: "&7Propietarios:"
 owners_none: "&cSin propietarios"
