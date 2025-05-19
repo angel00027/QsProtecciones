@@ -9,7 +9,7 @@ Este plugin proporciona una interfaz gráfica amigable para administradores y ju
 
 - 📦 Listado de todas las regiones de ProtectionStones en el mundo.
 - 📍 Visualización de ubicación, propietarios, miembros y actividad reciente.
-- 🧭 Interfaz GUI personalizable para abrir menús de administración y de usuarios.
+- 🧭 Interfaz GUI personalizable para abrir menús de administración y de jugadores.
 - 🛠️ Compatible con WorldGuard y ProtectionStones.
 - ⏳ Seguimiento de actividad (última conexión) de cada región.
 - 📜 Textos completamente configurables mediante archivos de mensajes.
