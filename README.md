@@ -36,8 +36,8 @@ Este plugin proporciona una interfaz gráfica amigable para administradores y ju
 
 | Comando                                 | Descripción                                     |
 |-----------------------------------------|-------------------------------------------------|
-| `/misproteciones` o `/psmenu`           | Abre el menú de regiones administrables         |
-| `/pqs reload` o `/proteccionqs reload`  | Abre el menú de regiones administrables         |
+| `/misproteciones` o `/psmenu`           | Abre el menú principal        |
+| `/pqs reload` o `/proteccionqs reload`  | Recarga los archivos de  mensajes               |
 
 ---
 
