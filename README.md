@@ -1,64 +1,56 @@
-qsProtecciones
+# qsProtecciones
 
-qsProtecciones es un plugin de Minecraft desarrollado para facilitar la administración de regiones protegidas usando ProtectionStones y WorldGuard. Proporciona un menú interactivo amigable tanto para jugadores como para administradores, permitiendo ver, gestionar y controlar regiones de manera visual.
+Sistema avanzado de gestión de protecciones para servidores Minecraft con soporte para **ProtectionStones** y **WorldGuard**.  
+Este plugin proporciona una interfaz gráfica amigable para administradores y jugadores, facilitando el manejo, visualización y administración de regiones protegidas en el mundo.
 
-Características principales
+---
 
-✫ Menú GUI para mostrar todas las protecciones registradas.
+## ✨ Características
 
-✫ Información detallada: ID de la región, mundo, coordenadas, dueños, miembros y última actividad.
+- 📦 Listado de todas las regiones de ProtectionStones en el mundo.
+- 📍 Visualización de ubicación, propietarios, miembros y actividad reciente.
+- 🧭 Interfaz GUI personalizable para abrir menús de administración.
+- 🛠️ Compatible con WorldGuard y ProtectionStones.
+- ⏳ Seguimiento de actividad (última conexión) de cada región.
+- 📜 Textos completamente configurables mediante archivos de mensajes.
 
-✫ Acciones rápidas desde el menú (ver región, abrir submenús, etc).
+---
 
-✫ Totalmente configurable: mensajes personalizados mediante archivos de configuración.
+## 📷 Capturas
 
-✫ Diseñado para ser ligero, intuitivo y funcional.
+*(Puedes agregar imágenes del menú principal, submenús y mensajes personalizados.)*
 
-Requisitos
+---
 
-Servidor Spigot/Paper 1.19+
+## 🔧 Requisitos
 
-WorldGuard
+- Minecraft 1.20+ (adaptable a otras versiones)
+- [WorldGuard](https://enginehub.org/worldguard)
+- [ProtectionStones](https://www.spigotmc.org/resources/protectionstones-updated.61797/)
+- Java 17+
+- Plugin loader compatible (Spigot, Paper, Purpur, etc.)
 
-ProtectionStones
+---
 
-Instalación
+## 🧪 Comandos
 
-Coloca el archivo qsProtecciones.jar en la carpeta /plugins/ de tu servidor.
+| Comando                                 | Descripción                                     |
+|-----------------------------------------|-------------------------------------------------|
+| `/misproteciones` o `/psmenu`           | Abre el menú de regiones administrables         |
+| `/pqs reload` o `/proteccionqs reload`  | Abre el menú de regiones administrables         |
 
-Asegúrate de tener instalados y configurados correctamente WorldGuard y ProtectionStones.
+---
 
-Reinicia o recarga el servidor.
+## 🧱 Archivos de configuración
 
-Comandos
+El archivo `mensajes.yml` permite personalizar completamente los textos visibles en menús y mensajes enviados al jugador.
 
-Actualmente, las interacciones se realizan principalmente a través del menú. Puedes abrir el menú de administración con:
+Ejemplo:
 
-/protecciones admin
-
-Asegúrate de tener los permisos adecuados si tu plugin los implementa.
-
-Archivos de configuración
-
-El plugin permite personalizar los textos y mensajes mediante un archivo de mensajes. Por ejemplo:
-
-menu_protecciones: "&a» &bTus Protecciones"
-proteccion_nombre: "&bProtección: &e{region}"
-owners_title: "&7Dueños:"
-owners_none: "&c(Sin dueño)"
-actividad_nunca: "Nunca conectó"
-ultimas_actividad: "&7Última actividad: {actividad}"
-click_instruction: "&eHaz clic para ver opciones"
-not_in_protection: "&cNo estás dentro de una protección."
-
-Capturas de pantalla
-
-Próximamente...
-
-Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas reportar errores o sugerir mejoras, puedes abrir un issue o pull request.
-
-Licencia
-
-Este proyecto está licenciado bajo MIT License. Puedes ver el archivo LICENSE para más detalles.
+```yaml
+menu_protecciones: "§a» §bTus Protecciones"
+owners_title: "&7Propietarios:"
+owners_none: "&cSin propietarios"
+click_instruction: "&7Haz clic para administrar esta protección"
+actividad_nunca: "&cNunca ha habido actividad"
+ultimas_actividad: "&7Última actividad: &f{actividad}"
