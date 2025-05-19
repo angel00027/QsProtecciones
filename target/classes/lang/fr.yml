@@ -1,0 +1,2 @@
+plugin-start: "<green>[QsProtections]</green> <gray>Plugin has <green>started successfully</green>."
+plugin-stop: "<green>[QsProtections]</green> <gray>Plugin has <red>shut down successfully</red>."

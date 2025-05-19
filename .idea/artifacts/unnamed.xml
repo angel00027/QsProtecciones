@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QsProtecciones">
+    <output-path>$USER_HOME$/Desktop/archivitos/servidor de prueba proteccion stone/plugins</output-path>
+    <root id="archive" name="QsProtecciones.jar">
+      <element id="module-output" name="QsProtecciones" />
+    </root>
+  </artifact>
+</component>

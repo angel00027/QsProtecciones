@@ -1,0 +1,182 @@
+# ********************************************************
+# *                      QsProtecciones                  *
+# *               Mensajes del plugin en español          *
+# ********************************************************
+
+# ================================================================
+# Instrucciones sobre los formatos de mensajes
+# ================================================================
+#
+# 1. Mensajes en formato MiniMessage:
+#    - Estos mensajes utilizan etiquetas como <red>, <green>, <yellow>, etc.
+#    - SOLO pueden usarse estas etiquetas para definir colores y estilos.
+#    - Ejemplo válido:
+#        <red>No eres el propietario de esta protección.</red>
+#    - NO se debe usar el formato con el símbolo & en estos mensajes.
+#    - Por lo tanto, NO es correcto usar:
+#        &cNo eres el propietario de esta protección.
+#
+# 2. Mensajes en formato Legacy (con símbolo &):
+#    - Estos mensajes utilizan códigos de color con el símbolo & seguido de una letra o número.
+#    - Ejemplo válido:
+#        &cNo eres el propietario de esta protección.
+#    - NO se debe usar etiquetas MiniMessage (<red>...</red>) en estos mensajes.
+#    - Por lo tanto, NO es correcto usar:
+#        <red>No eres el propietario de esta protección.</red>
+#
+# Resumen:
+# - Cada mensaje debe mantenerse en su formato correspondiente.
+# - No mezclar etiquetas MiniMessage con códigos Legacy (&).
+# - Así se evita que los mensajes no se muestren correctamente en el plugin.
+#
+# =================================================================
+
+
+# ==========================
+# Mensajes en formato MiniMessage
+# ==========================
+
+plugin-start: "<green>[QsProtecciones]</green> <gray>El plugin se ha <green>iniciado correctamente</green>."
+plugin-stop: "<green>[QsProtecciones]</green> <gray>El plugin se ha <red>desactivado correctamente</red>."
+no_owner: "<red>No eres el propietario de esta protección.</red>"
+no_tp: "<red>Esta protección no tiene punto de teletransporte.</red>"
+tp_success: "<green>Teletransportado a: <white>{region}</white></green>"
+config_open: "<yellow>Configurando protección: <green>{region}</green></yellow>"
+no_permissions: "<red>No tienes permisos para hacer esto.</red>"
+no_protections: "<yellow>No tienes protecciones registradas.</yellow>"
+showing_protection: "<green>Mostrando visualmente la protección...</green>"
+not_in_protection: "<red>No estás dentro de ninguna protección.</red>"
+configuring_protection: "<yellow>Configurando protección: <green>{region}</green></yellow>"
+no_propietario: "<red>No eres el propietario de esta protección.</red>"
+error_no_region: "<red>No se pudo obtener la región.</red>"
+error_no_gestor_regiones: "<red>No se pudo obtener el gestor de regiones.</red>"
+error_no_region_id: "<red>No se encontró la región: {region}"
+error_guardar_cambios: "<red>Error guardando cambios en la región."
+flag_cambiada: "<green>Flag <yellow>{flag}</yellow> cambiada a <gold>{estado}</gold>."
+no_region_pendiente: "<red>No tienes ninguna región pendiente de eliminar."
+region_no_encontrada: "<red>No se encontró la región.</red>"
+region_eliminada_exito: "<green>Región eliminada correctamente. Has recuperado tu bloque de protección."
+eliminacion_cancelada: "<yellow>Eliminación cancelada."
+accion_cancelada: "<yellow>Acción cancelada.</yellow>"
+jugador_no_ha_entrado: "<yellow>Advertencia: El jugador no ha ingresado al servidor aún, pero fue agregado igualmente.</yellow>"
+jugador_ya_miembro: "<yellow>Ese jugador ya es miembro de esta protección.</yellow>"
+miembro_agregado: "<green>Se ha agregado a <gold>{jugador}</gold> como miembro.</green>"
+sin_region_abierta: "<red>No tienes ninguna región abierta.</red>"
+error_regionmanager: "<red>No se pudo obtener el gestor de regiones.</red>"
+modificada: "<green>La bandera <yellow>{flag}</yellow> ha sido modificada a <aqua>{estado}</aqua>."
+menu_seleccion: "<gold>» <yellow>Selección: {region} <gold>«"
+menu_seleccion_adm: "<gold>» <yellow>Selección Adm: {region} <gold>«"
+estado_none: "<gray>Ninguno"
+estado_allow: "<green>Permitido"
+estado_deny: "<red>Denegado"
+teleport_exitoso: "<green>Teletransportado a la protección.</green>"
+no_home: "<red>La protección no tiene un punto de home establecido.</red>"
+abriendo_configuracion: "<yellow>Abriendo configuración para: <green>{region}</green></yellow>"
+rename_instrucciones: "<yellow>Escribe en el chat el nuevo nombre para la región. Escribe 'cancelar' para cancelar.</yellow>"
+titulo: "<color:#ff7a05>Información de la región:</color>"
+id: "<gray>ID: {id}</gray>"
+mundos: "<gray>Mundo: {mundo}</gray>"
+miembros_vacio: "<gray>Miembros: Ninguno</gray>"
+miembros_lista: "<gray>Miembros: {miembros}</gray>"
+
+
+# mensajesnormales.yml
+
+menu_acciones_titulo: "<yellow>Acciones - Región <green>{region}</green></yellow>"
+
+teletransporte: "<gold>Teletransportarse</gold>"
+flags: "<gold>Flags</gold>"
+miembros: "<gold>Miembros</gold>"
+renombrar: "<gold>Renombrar</gold>"
+informacion: "<gold>Información</gold>"
+visualizar: "<gold>Visualizar</gold>"
+eliminar: "<red>Eliminar</red>"
+region_eliminada_exitos: "<green>¡Región eliminada exitosamente!</green>"
+eliminacion_canceladas: "<green>¡Eliminacion cancelada!</green>"
+no_hay_regiones: "<red>No tienes protecciones registradas en este mundo.</red>"
+
+
+
+
+
+
+
+
+# ==========================
+# Mensajes en formato Legacy (& o §)
+# ==========================
+actividad_nunca: "Nunca has tenido actividad registrada."
+ultimas_actividad: "Última actividad: {actividad}"
+click_instruction: "&eToca para ver las opciones"
+menu_option_teleport: "§aTeletransportarse"
+menu_option_configure: "§eConfigurar Protección"
+abriendo_protecciones: "§aAbriendo todas tus protecciones..."
+estadisticas_titulo: "§l» §eEstadísticas de protecciones de §b{jugador} §l«"
+no_tienes_protecciones: "§cNo tienes protecciones actualmente."
+total_protecciones: "§eTotal de protecciones: §f{total}"
+detalles: "§7Detalles:"
+detalle_proteccion: "§7 - §a{id} §7| Mundo: §f{mundo} §7| Miembros: §f{miembros}"
+accediendo_panel_admin: "§cAccediendo al panel de administración..."
+no_permiso_panel_admin: "§cNo tienes permiso para acceder al panel de administración."
+mundo: "Mundo"
+propietarios: "Propietarios"
+sin_propietarios: "Sin propietarios registrados."
+ultima_actividad: "Última actividad"
+clic_izquierdo: "Clic izquierdo"
+clic_derecho: "Clic derecho"
+teletransportarse: "Teletransportarse"
+configurar_proteccion: "Configurar protección"
+
+# Menú de protecciones
+menu_protecciones: "§a» §bTodas las Protecciones"
+menu_tus_protecciones: "§a» §bTus Protecciones"
+proteccion_nombre: "&aProtección: &e{region}"
+members_title: "§bMiembros:"
+members_none: "§c(No hay miembros)"
+lore_world: "&aMundo: &e{world}"
+lore_coordinates: "&6X: {x} Y: {y} Z: {z}"
+owners_title: "&ePropietarios:"
+owners_none: "&cSin propietarios registrados."
+
+#menu de principal
+menu_principal_titulo: "§6» §eMenú Principal §6«"
+menu_ver_protecciones_name: "§a» §lVer todas tus protecciones"
+menu_ver_protecciones_lore:
+  - "§7Mira todas las áreas protegidas"
+  - "§7que has creado o posees."
+  - "§eHaz click para abrir."
+menu_estadisticas_name: "§b» §lEstadísticas de protecciones"
+menu_estadisticas_lore:
+  - "§7Consulta cuántas protecciones tienes,"
+  - "§7en qué mundos están y cuántos miembros"
+  - "§7tiene cada una."
+  - "§eProtecciones actuales: {total}"
+  - "§eHaz click para ver tus estadísticas."
+menu_admin_name: "§c» §lPanel de Administración"
+menu_admin_lore:
+  - "§7Accede a herramientas de administración"
+  - "§7para gestionar las protecciones del servidor."
+  - "§c¡Solo administradores!"
+menu_cristal_name: ""
+menus:
+  confirmacion_eliminacion:
+    titulo: "§cConfirmar eliminación"
+    confirmar: "§aConfirmar eliminación"
+    cancelar: "§cCancelar eliminación"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+plugin-start: "<green>[QsProtecciones]</green> <gray>El plugin se ha <green>iniciado correctamente</green>."
+plugin-stop: "<green>[QsProtecciones]</green> <gray>El plugin se ha <red>desactivado correctamente</red>."
+no_owner: "<red>No eres el propietario de esta protección.</red>"
+no_tp: "<red>Esta protección no tiene punto de teletransporte.</red>"
+tp_success: "<green>Teletransportado a: <white>{region}</white></green>"
+config_open: "<yellow>Configurando protección: <green>{region}</green></yellow>"
+no_permissions: "<red>No tienes permisos para hacer esto.</red>"
+no_protections: "<yellow>No tienes protecciones registradas.</yellow>"
+showing_protection: "<green>Mostrando visualmente la protección...</green>"
+not_in_protection: "<red>No estás dentro de ninguna protección.</red>"
+click_instruction: "&eToca para ver las opciones"
+configuring_protection: "<yellow>Configurando protección: <green>{region}</green></yellow>"
+menu_seleccion_title: "&bMenú de Selección: &d{region}"
+menu_option_teleport: "§aTeletransportarse"
+menu_option_configure: "§eConfigurar Protección"
+no_propietario: "<red>No eres el propietario de esta protección.</red>"
+error_no_region: "<red>No se pudo obtener la región."
+error_no_gestor_regiones: "<red>No se pudo obtener el gestor de regiones."
+error_no_region_id: "<red>No se encontró la región: {region}"
+error_guardar_cambios: "<red>Error guardando cambios en la región."
+flag_cambiada: "<green>Flag <yellow>{flag}</yellow> cambiada a <gold>{estado}</gold>."
+estado_none: "&fNinguno"
+estado_deny: "&cDesactivado"
+estado_allow: "&aActivado"
+no_region_pendiente: "<red>No tienes ninguna región pendiente de eliminar."
+region_no_encontrada: "<red>No se encontró la región.</red>"
+region_eliminada_exito: "<green>Región eliminada correctamente. Has recuperado tu bloque de protección."
+eliminacion_cancelada: "<yellow>Eliminación cancelada."
+
+sin_region_abierta: "<red>No tienes ninguna región abierta.</red>"
+error_regionmanager: "<red>No se pudo obtener el gestor de regiones.</red>"
+modificada: "<gold>Flag <yellow>{flag}</yellow><gold> modificada a {estado}</gold>"
+
+menu_tus_protecciones: "§a» §bTus Protecciones"
+proteccion_nombre: "&aProtección: &e{region}"
+members_title: "§bMiembros:"
+members_none: "§c(No hay miembros)"
+lore_world: "&aMundo: &e{world}"
+lore_coordinates: "&6X: {x} Y: {y} Z: {z}"
+owners_title: "&ePropietarios:"
+owners_none: "&cSin propietarios registrados."
+
+menu_ver_protecciones_name: "§a» §lVer todas tus protecciones"
+menu_ver_protecciones_lore:
+  - "§7Mira todas las áreas protegidas"
+  - "§7que has creado o posees."
+  - "§eHaz click para abrir."
+menu_estadisticas_name: "§b» §lEstadísticas de protecciones"
+menu_estadisticas_lore:
+  - "§7Consulta cuántas protecciones tienes,"
+  - "§7en qué mundos están y cuántos miembros"
+  - "§7tiene cada una."
+  - "§eProtecciones actuales: {total}"
+  - "§eHaz click para ver tus estadísticas."
+menu_admin_name: "§c» §lPanel de Administración"
+menu_admin_lore:
+  - "§7Accede a herramientas de administración"
+  - "§7para gestionar las protecciones del servidor."
+  - "§c¡Solo administradores!"
+menu_cristal_name: " "
+
+mensaje:
+  abriendo_protecciones: "§aAbriendo todas tus protecciones..."
+  estadisticas_titulo: "§l» §eEstadísticas de protecciones de §b{jugador} §l«"
+  no_tienes_protecciones: "§cNo tienes protecciones actualmente."
+  total_protecciones: "§eTotal de protecciones: §f{total}"
+  detalles: "§7Detalles:"
+  detalle_proteccion: "§7 - §a{id} §7| Mundo: §f{mundo} §7| Miembros: §f{miembros}"
+  accediendo_panel_admin: "§cAccediendo al panel de administración..."
+  no_permiso_panel_admin: "§cNo tienes permiso para acceder al panel de administración."
+
+
+
+
+
+
+
+

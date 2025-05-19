@@ -1,0 +1,17 @@
+name: QsProtecciones
+version: '1.0-SNAPSHOT'
+main: mp.quesito.qsProtecciones.QsProtecciones
+api-version: '1.21'
+
+commands:
+  proteccionqs:
+    description: Comando principal de ProteccionQS
+    usage: /<command> reload
+    aliases: [ pqs ]
+  misprotecciones:
+    description: Comando general para protecciones.
+    usage: /misprotecciones
+    aliases:
+      - prote
+      - psmenu
+
