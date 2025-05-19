@@ -17,8 +17,18 @@ Este plugin proporciona una interfaz gráfica amigable para administradores y ju
 ---
 
 ## 📷 Capturas
+Menu principal 
 
-*(Puedes agregar imágenes del menú principal, submenús y mensajes personalizados.)*
+![image](https://github.com/user-attachments/assets/3ee3e8ac-04a9-44a7-a9ce-d673b96e77ef)
+Menu de protecciones
+
+![image](https://github.com/user-attachments/assets/156a47db-3a38-4038-849f-0d57e6586ece)
+Menu de seleccion
+
+![image](https://github.com/user-attachments/assets/13e09f42-9063-4d67-8235-88e3eca6ce13)
+Menu de acciones
+
+![image](https://github.com/user-attachments/assets/39e1792b-6a2a-40b7-aafa-9505b3f3eed2)
 
 ---
 
