@@ -1,0 +1,12 @@
+Copyright (c) 2025 [QS Protecciones]
+
+Se permite el uso, copia y distribución de este software de forma gratuita, 
+siempre que se mantenga la atribución al autor original.
+
+Queda estrictamente prohibida la modificación, adaptación, o creación de trabajos derivados 
+basados en este software sin el permiso explícito del autor.
+
+Este software se proporciona "tal cual", sin ninguna garantía expresa o implícita, 
+incluyendo pero no limitado a garantías de comerciabilidad o adecuación para un propósito particular.
+
+Al usar este software, aceptas estas condiciones.
