@@ -115,4 +115,7 @@ Basado en los plugins y APIs de:
 
 ## 📝 Licencia
 
-Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente con atribución adecuada.
+Este proyecto está licenciado bajo los términos de una licencia personalizada. Puedes usar y distribuir este plugin libremente, siempre y cuando se otorgue la debida atribución al autor original. **No está permitido modificar ni redistribuir versiones alteradas** sin autorización explícita.
+
+Para cualquier uso distinto, por favor contacta con el autor.
+
